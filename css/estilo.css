@@ -108,7 +108,7 @@ body {
       rgba(0, 0, 0, 0.63) 20%,
       rgba(7, 7, 7)
     ),
-    url("/img/aptt.png") !important;
+    url(../img/aptt.png) !important;
   color: rgb(37, 37, 37);
   background-size: cover;
   height: 70vh;
