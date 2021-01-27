@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Escritório Cândido Mattos Fernandes</title>
+    <meta
+      name="description"
+      content="Escritório de Advocacia especializado em direito do trabalho e ações contra o INSS."
+    />
+    <meta
+      name="keywords"
+      content="Direito do Trabalho, Ação contra INSS, Rescisão Indireta, Aposentadoria por invalidez, Advogado Online"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+      integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- <?php
+      if(isset($_POST["nome"]) && !empty($_POST['nome'])){
+        $nome = addslashes($_POST['nome']);
+        $email = addslashes($_POST['email']);
+        $mensagem = addslashes($_POST['mensagem']);
+  
+        $para = "fernandesneto.br@gmail.com";
+        $assunto = "Email - Site FernandesNeto";
+        $corpo = "Nome: ".$nome." - Email: ". $email. " - Mensagem: ".$mensagem;
+        $cabecalho = "From: braumsolutions@braumsolutions.com"."\r\n".
+                      "Reply-To: ".$email."\r\n".
+                      "X-Mailer: PHP/".phpversion();
+  
+        mail($para, $assunto, $corpo, $cabecalho);
+        $resposta = "<p style= 'color: green; clear= both'> Email enviado com sucesso!</p>";
+  
+      } else{
+        $resposta = "<p style= 'color: red; clear= both'>Erro. Tente novamente</p>";
+      }
+  
+  ?> -->
+
+    <a href="https://api.whatsapp.com/send?L=pt&amp;phone=5541992480643"
+      ><img
+        src="img/whatsapp.ico"
+        style="position: fixed; bottom: 25px; right: 15px; z-index: 100"
+        data-selector="img"
+        alt=""
+    /></a>
+
+    <header id="particles-js" class="header">
+      <img src="img/logoCmf.png" alt="logo" class="header__logo" />
+      <div class="container">
+        <div class="header__top">
+          <div class="header__contato">
+            <div class="header__contato-telefone">
+              <i class="fas fa-phone"></i> 41 99248-0643 / 21 99772-8345
+            </div>
+            <div class="header__contato-email">
+              <i class="fas fa-whatsapp-sqaure"></i>
+              escritorio@advogadoscmf.com.br
+            </div>
+            <div class="header__contato-redessociais">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+            </div>
+          </div>
+
+          <nav class="header__menu">
+            <ul class="header__menu-ul">
+              <li><a href="#">Início</a></li>
+              <li><a href="#areas">Áreas de atuação</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <!-- <li><a href="#">Depoimentos</a></li> -->
+              <li class="header__menu-contato">
+                <a href="#contato">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__centro">
+          <h1>
+            Cândido Mattos Fernandes<span class="span-h1"
+              >Advogados Associados</span>
+          </h1>
+          <h4 id="slogan">Conectando Inovação e Inteligência Jurídica.</h4>
+
+          <!-- <p id="slogan">
+            A advocacia do amanhã, <span class="today">HOJE!</span>
+          </p> -->
+        </div>
+      </div>
+    </header>
+
+    <div class="form-box" id="contato">
+      <form action="" class="form" method="POST">
+        <h2>Entre em contato</h2>
+        <div class="inputs-box">
+          <input type="text" name="nome" placeholder="Nome" />
+          <input type="email" name="email" placeholder="Email" />
+        </div>
+        <textarea
+          name="mensagem"
+          id=""
+          cols="30"
+          rows="5"
+          placeholder="Sua mensagem"
+        ></textarea>
+        <!-- <?php
+        if(isset($_POST["nome"]) && !empty($_POST['nome'])){
+          echo $resposta;
+        }
+          ?> -->
+        <button type="submit" class="header__center-contato">
+          Entre em contato
+        </button>
+      </form>
+    </div>
+
+    <section class="section__areas">
+      <div class="container">
+        <h2 id="areas">Áreas de Atuação</h2>
+        <p>
+          O Escritório Cândido Mattos Fernandes atua em diversas áreas do
+          direito, com especialidade e experiência majoritária nas seguintes
+          áreas:
+        </p>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <i class="fas fa-briefcase fa-2x"></i>
+              <h4>Direito do Trabalho</h4>
+              <p>
+                Assessoria em questões relacionadas ao contrato de trabalho,
+                tais como formação, alteração e extinção da relação de emprego,
+                verbas trabalhistas, férias, repouso semanal, dentre outros.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <i class="fas fa-hand-holding-usd fa-2x"></i>
+              <h4>Direito Previdenciário</h4>
+              <p>
+                Atuação voltada à defesa dos direitos do segurados, aposentados
+                e pensionistas da Previdência Social, bem como a prestação de
+                assessoria e consultoria jurídica previdenciária à empresas.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <i class="fas fa-money-check-alt fa-2x"></i>
+              <h4>Direito Empresarial</h4>
+              <p>
+                Atuação preventiva e consultiva Elaboração, revisão e negociação
+                de contratos de natureza empresarial em geral (distribuição de
+                produtos, alienação de estabelecimento empresarial e ativos, entre outros.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__sobre" id="sobre">
+      <div class="container__left">
+        <h2>O escritório</h2>
+        <p>
+          Somos um escritório voltado para prestação de serviços jurídicos de
+          alta qualidade técnica, pautando-se em quatro princípios fundamentais:
+          ética, transparência, agilidade e excelência.
+        </p>
+        <p>
+          Contando com advogados especializados, nosso escritório oferece
+          serviços de consultoria administrativa e judicial, especialmente na
+          área do Direito do Trabalho, Previdenciário, Contratual e Empresarial.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__center">
+          <img src="img/logoCmf.png" class="footer__logo" alt="" />
+          <h3>Cândido Mattos Fernandes <span>Advogados Associados</span></h3>
+        </div>
+      </div>
+      <div class="footer__contato">
+        <div class="footer__contato-telefone">
+          <i class="fas fa-phone"></i> 41 99248-0643
+        </div>
+        <div class="footer__contato-email">
+          <i class="fas fa-envelope"></i> escritorio@advogadoscmf.com.br
+        </div>
+        <div class="footer__contato-redessociais">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+        </div>
+      </div>
+
+      <p class="criado">
+        Criado por
+        <a href="https://github.com/eliasfernandesbr"
+          >Elias Fernandes</a
+        >
+      </p>
+    </footer>
+    <script>
+      function fechar() {
+        document.getElementById("checkbox").checked = 0;
+      }
+    </script>
+    <script type="text/javascript" src="/js/particles.min.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
+  </body>
+</html>
